@@ -26,7 +26,7 @@ function App() {
         </a>
         <div>
         <div>{count}</div>
-        <button onClick={handleClick}>Add 5</button>
+        <button onClick={handleClick} className='btn'>Add 5</button> 
           
       </div>
       </header>
