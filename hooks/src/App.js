@@ -24,12 +24,13 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-      <div>
+        <div>
         <div>{count}</div>
         <button onClick={handleClick}>Add 5</button>
           
       </div>
+      </header>
+     
     </div>
   );
 }
